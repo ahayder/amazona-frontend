@@ -25,4 +25,4 @@ steps:
   condition: succeededOrFailed()
   inputs:
     testRunner: JUnit
-    testResultsFiles: '$(System.DefaultWorkingDirectory)/test-results.xml'
+    testResultsFiles: '$(System.DefaultWorkingDirectory)/test-report.xml'
