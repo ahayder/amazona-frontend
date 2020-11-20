@@ -14,7 +14,4 @@ describe("Againi this will perform some fake tests", () => {
   it("should be null", () => {
     expect(null).toBeNull();
   })
-  it("should perform a fake not truthy test", () => {
-    expect(false).not.toBeTruthy();
-  })
 })
