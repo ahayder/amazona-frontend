@@ -19,7 +19,7 @@ steps:
     npm install
     npm test
     npm build
-    echo $(System.DefaultWorkingDirectory)
+    cat $(System.DefaultWorkingDirectory)/test/test-result.xml
   displayName: 'npm install, test and build'
 
 - task: PublishTestResults@2
