@@ -26,3 +26,4 @@ steps:
   inputs:
     testRunner: JUnit
     testResultsFiles: '**/test/test-results.xml'
+    searchFolder: '$(System.DefaultWorkingDirectory)'
